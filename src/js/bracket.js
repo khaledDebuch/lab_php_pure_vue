@@ -7,6 +7,8 @@ import jQuery from "jquery";
 const $ = jQuery;
 import PerfectScrollbar from "perfect-scrollbar";
 import hljs from "highlightjs";
+import "jquery-ui/ui/widgets/datepicker";
+// import "peity";
 
 ("use strict");
 
@@ -164,21 +166,21 @@ $(document).ready(function() {
     suppressScrollX: true
   });
 
-  new PerfectScrollbar(".contact-scrollbar", {
-    suppressScrollX: true
-  });
+  // new PerfectScrollbar(".contact-scrollbar", {
+  //   suppressScrollX: true
+  // });
 
-  new PerfectScrollbar(".attachment-scrollbar", {
-    suppressScrollX: true
-  });
+  // new PerfectScrollbar(".attachment-scrollbar", {
+  //   suppressScrollX: true
+  // });
 
-  new PerfectScrollbar(".schedule-scrollbar", {
-    suppressScrollX: true
-  });
+  // new PerfectScrollbar(".schedule-scrollbar", {
+  //   suppressScrollX: true
+  // });
 
-  new PerfectScrollbar(".settings-scrollbar", {
-    suppressScrollX: true
-  });
+  // new PerfectScrollbar(".settings-scrollbar", {
+  //   suppressScrollX: true
+  // });
 
   // jquery ui datepicker
   $(".datepicker").datepicker();
@@ -189,7 +191,7 @@ $(document).ready(function() {
   });
 
   // peity charts
-  $(".peity-bar").peity("bar");
+  // $(".peity-bar").peity("bar");
 
   // highlight syntax highlighter
   $("pre code").each(function(i, block) {
