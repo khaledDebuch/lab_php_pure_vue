@@ -1,6 +1,6 @@
 <template>
   <div class="setting">
-    Setting Testing
+
     <!--  Top Bar -->
     <SettingTopBar />
 
@@ -12,6 +12,7 @@
 </template>
 
 <script>
+
 import SettingTopBar from "@/components/settings/SettingTopBar.vue";
 import SettingSidebar from "@/components/settings/SettingSidebar.vue";
 // import SettingTests from "@/components/settings/SettingTests.vue";
@@ -25,4 +26,5 @@ export default {
   }
 
 };
+
 </script>
